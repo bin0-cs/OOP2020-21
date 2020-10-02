@@ -13,23 +13,33 @@ class Types_and_Strings:
         message = input("Enter your noun: ")
         print("Originally entered: "+ message)
 
-        #
+
         # Enter your own print statements below:
-        #
+    def working_with_strings(self):
+
+        testword = input("Enter a word:")
+
 
         # print only first and last of the sentence:
-
+        # print(testword[0],testword[-1])
 
         # use slice notation:
+        # print(testword[2:5])
 
 
         # escaping a character:
+        # print("He said \"That's fantastic!\"")
 
 
         # find all a's in the input word and count how many there are:
+        # x = testword.find("a")
+        # print(x)
+        # y = testword.count("a")
+        # print(y)
 
 
         # replace all occurences of the character a with the - sign
+        # print(testword.replace("a","-"))
         # try this first by assignment of a location in a string and
         # observe what happens, then use replace():
 
@@ -62,4 +72,5 @@ class Types_and_Strings:
 
 tas = Types_and_Strings()
 tas.play_with_strings()
+tas.working_with_strings()
 #tas.play_with_lists()
